@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Technical documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="navbar">
+  <header>Software Tools</header>
+  <ul>
+    <li><a class="nav-link" href="#Software-documentation">Software documentation hosting options</a></li>
+    <li>
+      <a class="nav-link" href="#Read-the-docs">Read The Docs</a>
+    </li>
+    
+    <li><a class="nav-link" href="#GitHub">GitHub (& GitHub Pages)</a></li>
+    <li><a class="nav-link" href="#Dropbox-Paper">Dropbox Paper (for internal use)
+</a></li>
+    <li><a class="nav-link" href="#Atlassian-REST-API-Browser">Atlassian REST API Browser (for API use)</a></li>
+    <li><a class="nav-link" href="#Tettra">Tettra (for internal use)</a></li>
+    <li><a class="nav-link" href="#Apiary">Apiary (for API use)</a>
+    </li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section id="Software-documentation" class="main-section">
+    <header>Software documentation hosting options</header>
+    <p>It’s no good having just a bunch of text files living on your computer. They need to be accessible by developers and users, which you’re most likely going to do by hosting the docs on the internet since it isn’t the 1980s. For training new developers and keeping your documentation living all in the same place, Process Street is a solid choice for software documentation.
+
+First, you could create a process for writing your documentation, to make sure you capture all the right details and make it as useful as possible.
+      
+Then, using the following easy-to-use features, you can write up and store your documentation in one single place:</p>
+<ul>
+  <li>Image widgets</li>
+ <li>Text widgets</li>
+<li>Video widgets</li>
+<li>File widgetss</li>
+<li>Subtaskss</li>
+<li>Email widgetss</li>
+<li>Embed widgetss</li>
+   </ul>
+    <p>
+Creating and storing all your recurring software documentation within Process Street means it can be accessed by everyone in the company. You can share it with others, send it for approval, set reminders to review it, and update it easily.</p>
+  </section>
+
+  <section id="Read-the-docs" class="main-section">
+    <header>Read The Docs</header>
+    <p>It’s remarkable that Read The Docs is free when you see all that it can do. Similar to GitHub, you can create as much open-source material as you like that gets openly indexed on the site, but it’s going to cost you if you want to make the docs private and internal to your company. For our purposes, it’s likely you’re going to be alright with having the docs readily available for users on the web. The reason Read The Docs is so good is that you can effortlessly import documentation from any version control system including Git, Mercurial, Subversion, and Bazaar. It also supports webhooks so the docs get built automatically whenever you commit code.
+
+      Check their <strong>Getting Started</strong> guide to get a feel for how it works and how your docs would behave when hosted there.</p>
+    </section>
+  <section id="GitHub" class="main-section">
+    <header>GitHub (& GitHub Pages)</header>
+    <p>If you’re using GitHub to manage version control for your software, you have, at the bare minimum, a README.MD file in the repository. To use GitHub for documenting your software, like millions of others have done in the past, just fill that README in with markdown.
+A great example is sferik’s t repository, screenshotted here:
+If you want more than just one sheet of formatted text, you can take advantage of GitHub’s Pages tool (you get one free webpage + hosting with each GitHub account, and you can even route a custom domain to it). Pages even has great looking default themes that make your documentation look professional.
+Above is atom.io documentation for Electron hosted on GitHub. It’s a smart choice because it automatically works with GitHub’s version control, just like the rest of your software. See the site’s repository here.</p>
+  </section>
+  <section id="Dropbox-Paper" class="main-section">
+    <header>Dropbox Paper (for internal use)</header>
+    <p>For internal software documentation use, Dropbox Paper is an excellent choice. Like its predecessor Hackpad, you can use it to create a private wiki for employees. You can link documents together, insert code blocks, images and page jumps, just as you’d demand from any documentation tool.
+As you can see from the comments on the right, you can also use it to go through approval processes and collaborate over the creation of documentation. Overall, it’s a great tool for internally developing and creating documentation, perhaps with the view to publicize it later, or just keep it for internal use.</p>
+  </section>
+ <section id="Atlassian-REST-API-Browser" class="main-section">
+    <header>Atlassian REST API Browser (for API use)</header> 
+   <p>Atlassian’s REST API Browser (RAB) is included in JIRA Server, Confluence Server and Stash instances by default. It’s built for discovering APIs available for use in JIRA/Confluence environments, and also a place to host your documentation. If, of course, your API fits the bill. Document your API using this tool to give your JIRA/Confluence compatible API more exposure. Check here for Atlassian’s documentation on doing that.</p>
+  </section>
+  <section id="Tettra" class="main-section">
+    <header>Tettra (for internal use)</header>
+    <p>Tettra is a kind of knowledge base software where you can document your development, or anything at all.
+
+We use Tettra internally at Process Street for a bunch of use cases. Day to day, I use Tettra to have a single place where all my processes are documented so that I never forget how one relates to another or how the various automations we’ve built have been set up.
+
+Tettra is great if you’re looking to create a library of sorts. This means it’s brilliant for software documentation or even just as an internal wiki for your company.
+
+Given that Tettra is specifically designed for knowledge management, it comes with a host of other supporting features too. For example, it can make suggestions as to what extra content or sections you might want to add to give a more complete picture of your org and how things fit together.
+
+You can see a little video here for how a dev team might look to use Tettra: How Product & Engineering Teams Use Tettra.</p>
+  </section>
+<section id="Apiary" class="main-section">
+    <header>Apiary (for API use)</header> 
+  <p>As well as being a place where bees live, Apiary is a dedicated host for API documentation. Write in markdown, add mock API calls and Apiary collates that into something like you see below: Anyone can test the API without having to go into the app or actually program a call, which makes it a super accessible way to share your API, document it in-depth, and boast about what it can do.<p>
+  </section>
+<!-- partial -->
+  
+</body>
+</html>
